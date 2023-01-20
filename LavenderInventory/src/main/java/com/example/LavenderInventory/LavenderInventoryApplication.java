@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
-
+// for configuration 
 @SpringBootApplication
 public class LavenderInventoryApplication {
 
